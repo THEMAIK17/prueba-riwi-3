@@ -13,7 +13,7 @@ export function settingsDashboard() {
     return;
   }
 
-  const app = document.getElementById("app"); 
+  const app = document.getElementById("app"); // get container
 
   if (user.rolId === 1) { // if user is admin
     app.innerHTML = renderAdmin(); // show admin page
