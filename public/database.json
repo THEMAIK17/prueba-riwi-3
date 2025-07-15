@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": "d5cb",
+      "name": "dsfsdfAFD",
+      "userName": "SDFSDF",
+      "email": "prueba@gmail.com",
+      "password": "prueba",
+      "rolId": 1
+    },
+    {
+      "id": "f59d",
+      "name": "sdffdsf",
+      "userName": "sdfdfdsf",
+      "email": "maikol17@gmail.com",
+      "password": "1234",
+      "rolId": 2
+    }
+  ],
+  "events": [
+    {
+      "id": "3744",
+      "name": "hola",
+      "description": "ert",
+      "date": "2025-07-05",
+      "location": "barranquilla",
+      "capacity": 5
+    } 
+  ],
+  "registrations": [
+    
+  ]
+}
