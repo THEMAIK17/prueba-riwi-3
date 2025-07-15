@@ -1,7 +1,7 @@
 export function renderAdmin(){
     return `
     <main class="dashboard-admin">
-        <h2>Panel de Administración de Eventos</h2>
+        <h2>Event Management Panel</h2>
 
         <!-- form for create or events edit -->
         <form id="form-event" class="event-form">

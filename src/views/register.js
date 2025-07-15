@@ -9,7 +9,7 @@ export function renderRegister(){
             <input type="password"  id="register-password" placeholder="enter your password" required>
             <button type="submit">register</button>
             <div class="links">
-                <a href="/login" data-link>do you have an account? sign in </a>>
+                <a href="/login" data-link>do you have an account? sign in </a>
             </div>
         </form>
     </main>
