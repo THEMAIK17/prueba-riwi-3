@@ -73,11 +73,11 @@ export async function settingsDashboardVisitor() {
     container.onclick = async (e) => {
       if (!e.target.matches(".btn-register")) return; 
 
-      const eventId = parseInt(e.target.dataset.id); 
+      const eventId = (e.target.dataset.id); 
 
       // check if already registered
       const yaRegistrado = registrations.some(
-        (r) => parseInt(r.eventId) === eventId && r.visitorId === user.id
+        (r) => (r.eventId) === eventId && r.visitorId === user.id
       );
 
       if (yaRegistrado) {
@@ -86,8 +86,8 @@ export async function settingsDashboardVisitor() {
       }
 
       // check capacity
-      const evento = events.find(ev => parseInt(ev.id) === eventId);
-      const inscritos = registrations.filter(r => parseInt(r.eventId) === eventId).length;
+      const evento = events.find(ev => (ev.id) === eventId);
+      const inscritos = registrations.filter(r => (r.eventId) === eventId).length;
 
       if (inscritos >= evento.capacity) {
         alert("This event no longer has available spaces."); 

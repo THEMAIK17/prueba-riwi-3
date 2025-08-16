@@ -15,19 +15,60 @@
       "email": "maikol17@gmail.com",
       "password": "1234",
       "rolId": 2
+    },
+    {
+      "id": "df4f",
+      "name": "maikol",
+      "userName": "maik89",
+      "email": "maikol12@gmail.com",
+      "password": "maikol1234",
+      "rolId": 2
     }
   ],
   "events": [
     {
-      "id": "3744",
-      "name": "hola",
-      "description": "ert",
-      "date": "2025-07-05",
+      "id": "d503",
+      "name": "riwi",
+      "description": "asdasd",
+      "date": "2025-08-17",
       "location": "barranquilla",
-      "capacity": 5
-    } 
+      "capacity": 12
+    },
+    {
+      "id": "d500",
+      "name": "rumba",
+      "description": "asdsa",
+      "date": "2025-08-18",
+      "location": "barranquilla",
+      "capacity": 7
+    },
+    {
+      "id": "01af",
+      "name": "gym",
+      "description": "213",
+      "date": "2025-08-17",
+      "location": "barranquilla",
+      "capacity": 10
+    }
   ],
   "registrations": [
-    
+    {
+      "id": "0e0d",
+      "eventId": "d503",
+      "visitorId": "df4f",
+      "date": "2025-08-16"
+    },
+    {
+      "id": "4b99",
+      "eventId": "d500",
+      "visitorId": "df4f",
+      "date": "2025-08-16"
+    },
+    {
+      "id": "4731",
+      "eventId": "01af",
+      "visitorId": "df4f",
+      "date": "2025-08-16"
+    }
   ]
 }
